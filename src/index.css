@@ -1,0 +1,41 @@
+.custom-button{
+  width: 100px;
+}
+.connect{
+color: green;
+}
+.social-icons a {
+  color: #000;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff; 
+}
+
+.colorRed{
+  color: red;
+}
+.colorBlue{
+  color: #007bff;
+}
+
+.wallet-btn {
+box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px; 
+color: #FFFFFF;
+cursor: pointer;
+outline: 0;
+user-select: none;
+touch-action: manipulation;
+}
+
+.wallet-btn:hover,
+.wallet-btn:active {
+background-color: initial;
+background-position: 0 0;
+color: #FF4742;
+}
+
+.wallet-btn:active {
+opacity: .5;
+}
